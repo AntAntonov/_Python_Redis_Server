@@ -17,3 +17,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+c = input.int()
+print(type(c))
