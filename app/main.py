@@ -18,8 +18,8 @@ def main():
     with conn:
        if conn.accept:
        
-       conn.recv(1024)
-       conn.send(pong.encode())
+            conn.recv(1024)
+            conn.send(pong.encode())
     
 
 if __name__ == "__main__":
