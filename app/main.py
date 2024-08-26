@@ -16,7 +16,7 @@ def main():
 
 
     with conn:
-       if conn.accept:
+       while conn.accept:
        
             conn.recv(1024)
             conn.send(pong.encode())
